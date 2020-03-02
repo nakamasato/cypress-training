@@ -1,13 +1,13 @@
 {
-  "name": "example-basic",
+  "name": "cypress-test",
   "version": "1.0.0",
-  "description": "basic example how to run Cypress tests",
+  "description": "run Cypress tests",
   "main": "index.js",
   "scripts": {
     "test": "cypress run"
   },
   "author": "",
-  "license": "ISC",
+  "license": "",
   "private": true,
   "devDependencies": {
     "cypress": "4.0.2"
