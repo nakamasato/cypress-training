@@ -1,5 +1,9 @@
 # cypress-test
 
+## Version
+
+- cypress 9.0.0
+
 ## Install Cypress
 
 ```
@@ -15,14 +19,33 @@ https://github.com/cypress-io/github-action
 
 ## Set up Cypress Dashboard
 
-1. Download app from (https://docs.cypress.io/guides/getting-started/installing-cypress.html#Direct-download)
+1. Download app from (https://docs.cypress.io/guides/getting-started/installing-cypress.html#Direct-download).
+    <details><summary>screenshot</summary>
+
     ![](docs/cypress-download.png)
-1. Sign in with your Github and Gmail account
-1. Set up
+
+    </details>
+1. Sign in with your Github and Gmail account.
+1. Set up.
+    <details><summary>screenshot</summary>
+
     ![](docs/cypress-project.png)
-1. Get cypress record key
+    
+    </details>
+1. Get cypress record key.
+    <details><summary>screenshot</summary>
+
     ![](docs/cypress-run-with-record-key.png)
-1. Run with Docker
+
+    </details>
+1. Run with Docker.
+
+    ```
+    docker run -it -e CYPRESS_RECORD_KEY=xxxxx -e CYPRESS_VIDEO=false -v $PWD:/e2e -w /e2e cypress/included:3.2.0 --record
+    ```
+
+    <details><summary>screenshot</summary>
+
     ```
     ± docker run -it -e CYPRESS_RECORD_KEY=xxxxx -e CYPRESS_VIDEO=false -v $PWD:/e2e -w /e2e cypress/included:3.2.0 --record
     This project has been configured to record runs on our Dashboard.
@@ -93,8 +116,14 @@ https://github.com/cypress-io/github-action
     └────────────────────────────────────────────────────────────────────────────────────────────────┘
         All specs passed!                           00:04        1        1        -        -        -  
     ```
-1. Cypress dashboard
+    
+    </details>
+1. Cypress dashboard.
+    <details><summary>screenshot</summary>
+
     ![](docs/cypress-dashboard.png)
+
+    </details>
 
 ## Reference
 
