@@ -1,5 +1,9 @@
 # cypress-test
 
+## Version
+
+- cypress 9.0.0
+
 ## Install Cypress
 
 ```
@@ -16,6 +20,7 @@ https://github.com/cypress-io/github-action
 ## Set up Cypress Dashboard
 
 1. Download app from (https://docs.cypress.io/guides/getting-started/installing-cypress.html#Direct-download)
+    
     ![](docs/cypress-download.png)
 1. Sign in with your Github and Gmail account
 1. Set up
