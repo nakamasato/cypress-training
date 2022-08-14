@@ -1,4 +1,4 @@
-# cypress-test
+# cypress-training
 
 ## Version
 
