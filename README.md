@@ -2,7 +2,7 @@
 
 ## Version
 
-- cypress 9.0.0
+- cypress 10.4.0
 
 ## Install Cypress
 
@@ -30,7 +30,7 @@ https://github.com/cypress-io/github-action
     <details><summary>screenshot</summary>
 
     ![](docs/cypress-project.png)
-    
+
     </details>
 1. Get cypress record key.
     <details><summary>screenshot</summary>
@@ -78,8 +78,8 @@ https://github.com/cypress-io/github-action
 
 
     ────────────────────────────────────────────────────────────────────────────────────────────────────
-                                                                                                        
-    Running: sample_spec.js...                                                               (1 of 1) 
+
+    Running: sample_spec.js...                                                               (1 of 1)
     Browserslist: caniuse-lite is outdated. Please run next command `npm update caniuse-lite browserslist`
 
 
@@ -110,13 +110,13 @@ https://github.com/cypress-io/github-action
     (Run Finished)
 
 
-        Spec                                                Tests  Passing  Failing  Pending  Skipped 
+        Spec                                                Tests  Passing  Failing  Pending  Skipped
     ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
     │ ✔ sample_spec.js                            00:04        1        1        -        -        - │
     └────────────────────────────────────────────────────────────────────────────────────────────────┘
-        All specs passed!                           00:04        1        1        -        -        -  
+        All specs passed!                           00:04        1        1        -        -        -
     ```
-    
+
     </details>
 1. Cypress dashboard.
     <details><summary>screenshot</summary>
