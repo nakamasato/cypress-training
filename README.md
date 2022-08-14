@@ -13,6 +13,20 @@ npm install cypress --save-dev
 https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-requirements
 
 
+## Run
+
+Run with UI:
+
+```
+./node_modules/.bin/cypress open
+```
+
+Run in terminal:
+
+```
+./node_modules/.bin/cypress run
+```
+
 ## Run Cypress on Github Actions
 
 https://github.com/cypress-io/github-action
