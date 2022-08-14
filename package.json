@@ -10,7 +10,7 @@
   "license": "",
   "private": true,
   "devDependencies": {
-    "cypress": "9.7.0",
+    "cypress": "^10.4.0",
     "lodash": "4.17.21",
     "minimist": "1.2.6"
   }
