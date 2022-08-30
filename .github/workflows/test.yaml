@@ -1,8 +1,7 @@
 name: End-to-end tests
 on:
   pull_request:
-    paths:
-      - '!**.md'
+
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
