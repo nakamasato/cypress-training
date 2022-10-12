@@ -12,6 +12,6 @@
   "devDependencies": {
     "cypress": "10.10.0",
     "lodash": "4.17.21",
-    "minimist": "1.2.6"
+    "minimist": "1.2.7"
   }
 }
