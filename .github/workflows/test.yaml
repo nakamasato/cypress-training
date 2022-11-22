@@ -1,6 +1,8 @@
 name: End-to-end tests
 on:
   pull_request:
+    paths-ignore:
+      - '*.md'
 
 jobs:
   cypress-run:
@@ -9,7 +11,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Cypress run
-        uses: cypress-io/github-action@v4.2.0
+        uses: cypress-io/github-action@v4
         with:
           record: true
         env:
