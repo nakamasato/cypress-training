@@ -2,7 +2,7 @@
 
 ## Version
 
-- cypress 11.0.1
+- cypress 11.2.0
 
 ## Install Cypress
 
