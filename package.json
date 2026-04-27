@@ -11,7 +11,7 @@
   "private": true,
   "devDependencies": {
     "cypress": "11.2.0",
-    "lodash": "4.17.21",
+    "lodash": "4.18.1",
     "minimist": "1.2.7"
   }
 }
